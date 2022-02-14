@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { MeilingV1ExtendedAuthMethods, MeilingV1SigninType } from './interface/auth';
 
-const server = 'https://meiling.stella-api.dev';
+const server = 'https://id.api.sunrin.in';
 const tokenItemName = 'meiling-v1-token';
 
 export async function getMeilingSessionToken(forceUpdate?: boolean): Promise<string> {
